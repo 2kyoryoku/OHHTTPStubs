@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "09110A5019805F4800D175E4"
-               BuildableName = "OHHTTPStubs iOS Tests.xctest"
-               BlueprintName = "OHHTTPStubs iOS Tests"
+               BuildableName = "OHHTTPStubs iOS Lib Tests.xctest"
+               BlueprintName = "OHHTTPStubs iOS Lib Tests"
                ReferencedContainer = "container:OHHTTPStubs.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,12 +47,21 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "09110A5019805F4800D175E4"
-               BuildableName = "OHHTTPStubs iOS Tests.xctest"
-               BlueprintName = "OHHTTPStubs iOS Tests"
+               BuildableName = "OHHTTPStubs iOS Lib Tests.xctest"
+               BlueprintName = "OHHTTPStubs iOS Lib Tests"
                ReferencedContainer = "container:OHHTTPStubs.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "09110A4019805F4800D175E4"
+            BuildableName = "libOHHTTPStubs.a"
+            BlueprintName = "OHHTTPStubs iOS StaticLib"
+            ReferencedContainer = "container:OHHTTPStubs.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -81,6 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "09110A4019805F4800D175E4"
+            BuildableName = "libOHHTTPStubs.a"
+            BlueprintName = "OHHTTPStubs iOS StaticLib"
+            ReferencedContainer = "container:OHHTTPStubs.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
